@@ -1,3 +1,18 @@
+#Problem 1 - unit 1 (OOP): Courier Parcel Management System to maintain parcel delivery records.
+#create the following classes:
+#Parcel:
+#Parcel ID
+#Sender Name
+#Parcel Weight
+#categorize parcels as:
+#light
+#medium
+#heavy
+#CourierService:
+#Maintain parcel records.
+#Add parcel details.
+#Display all parcels.
+
 class Parcel:
     def __init__(self, parcel_id, sender_name, parcel_weight):
         self.parcel_id = parcel_id
