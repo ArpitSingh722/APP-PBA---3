@@ -1,3 +1,19 @@
+# Problem 3 - Unit 3 (File Handling / Regular Expression)
+# write a python script to read a csv file and extract selected columns, such as student name, roll number, and marks into a new csv file.
+# Sample input / expected output
+#Sample Input File: student.csv
+#101, Alice, Computer, 85, Pune
+#102, Bob, IT, 72, Pune
+#103, Charlie, Computer, 91, Pune
+#104, David, ENTC, 65, Pune
+#105, Emma, IT, 88, Pune
+# Expected Output File: selected_student.csv
+#Name, RollNO, Marks
+#Alice, 101, 85
+#Bob, 102, 72
+#Charlie, 103, 91
+#David, 104, 65
+#Emma, 105, 88
 import csv
 import os
 
